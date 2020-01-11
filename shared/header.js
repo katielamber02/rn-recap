@@ -1,7 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-// import { MaterialIcons } from '@expo/vector-icons';
+
 import Ionicons from 'react-native-vector-icons/Ionicons';
+
+
 export default function Header({ title, navigation }) {
 
     const openMenu = () => {
@@ -11,7 +13,7 @@ export default function Header({ title, navigation }) {
     return (
         <View style={styles.header}>
             {/* <MaterialIcons name='menu' size={28} onPress={openMenu} style={styles.icon} /> */}
-            <Ionicons name="ios-menu" size={40} />
+            <Ionicons name="ios-menu" size={40} onPress={openMenu} style={styles.icon} />
             <View>
                 <Text style={styles.headerText}>{title}</Text>
             </View>
@@ -26,6 +28,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: 'grey'
     },
     headerText: {
         fontWeight: 'bold',

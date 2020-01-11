@@ -6,9 +6,17 @@ import ReviewDetails from '../screens/reviewDetails';
 const screens = {
     Home: {
         screen: Home,
+        navigationOptions: {
+            title: 'My Zone from options',
+            headerStyle: { backgroundColor: 'blue' }
+        }
     },
     ReviewDetails: {
         screen: ReviewDetails,
+        navigationOptions: {
+            title: 'Review Details from options',
+            headerStyle: { backgroundColor: 'yellow' }
+        }
     },
 };
 

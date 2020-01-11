@@ -9,6 +9,7 @@ const screens = {
         navigationOptions: ({ navigation }) => {
             return {
                 headerTitle: () => <Header title='My Zone About' navigation={navigation} />
+                // headerTitle: () => <Header  />
             }
         },
     },
@@ -16,7 +17,7 @@ const screens = {
 
 const AboutStack = createStackNavigator(screens, {
     defaultNavigationOptions: {
-        headerTintColor: '#444',
+        headerTintColor: 'white',
         headerStyle: { backgroundColor: '#eee', height: 70 },
     }
 });

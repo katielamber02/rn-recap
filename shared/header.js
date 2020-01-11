@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
@@ -12,8 +11,7 @@ export default function Header({ title, navigation }) {
 
     return (
         <View style={styles.header}>
-            {/* <MaterialIcons name='menu' size={28} onPress={openMenu} style={styles.icon} /> */}
-            <Ionicons name="ios-menu" size={40} onPress={openMenu} style={styles.icon} />
+            <Ionicons name="ios-menu" size={30} onPress={openMenu} style={styles.icon} />
             <View>
                 <Text style={styles.headerText}>{title}</Text>
             </View>
@@ -23,6 +21,7 @@ export default function Header({ title, navigation }) {
 
 const styles = StyleSheet.create({
     header: {
+
         width: '100%',
         height: '100%',
         flexDirection: 'row',
@@ -33,7 +32,7 @@ const styles = StyleSheet.create({
     headerText: {
         fontWeight: 'bold',
         fontSize: 20,
-        color: '#333',
+        color: 'yellow',
         letterSpacing: 1,
     },
     icon: {

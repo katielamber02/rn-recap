@@ -1,14 +1,15 @@
+import React, { useState } from 'react';
+
+import Navigator from './routes/drawer';
 
 
-import React from 'react';
-import Navigator from './routes/homeStack'
 
-const App: () => React$Node = () => {
+export default function App() {
+
+
   return (
     <Navigator />
   );
-};
 
 
-
-export default App;
+}

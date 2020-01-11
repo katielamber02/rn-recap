@@ -27,4 +27,4 @@ const HomeStack = createStackNavigator(screens, {
         headerStyle: { backgroundColor: 'blue', height: 80 }
     }
 });
-export default createAppContainer(HomeStack);
+export default HomeStack

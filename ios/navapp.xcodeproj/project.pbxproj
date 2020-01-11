@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* mobileappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mobileappTests.m */; };
+		00E356F31AD99517003FC87E /* navappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* navappTests.m */; };
+		04554841E2B74BCF86AC5AB5 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1ADC255BFBC44FFA8B918BE /* Feather.ttf */; };
+		0702F5056CD54261B2736CD2 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCF1952961834141BBE02858 /* Foundation.ttf */; };
+		0EFD985A26C040CF95C87215 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216528BCA19F43728DFDE844 /* Octicons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1EBD505CF0F840F2B9304B41 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0717B858144E249EDA5EAA /* MaterialIcons.ttf */; };
+		28CEF14864BEE6DF30B9E462 /* libPods-navapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8B6C569BA75058DC6A2E8A /* libPods-navapp.a */; };
+		2A1EC4894B044216B14A28E9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A26F2DB8DA7413C9A91F112 /* FontAwesome.ttf */; };
+		2B874D38CFA8CABFC75E508B /* libPods-navapp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994B8783FBF9075CBB1CB0B /* libPods-navapp-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* mobileappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mobileappTests.m */; };
-		5C489D47919D6B03EE294E97 /* libPods-mobileappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC15A4345A5800E457272F /* libPods-mobileappTests.a */; };
-		68D9A7E369C18274E75F600A /* libPods-mobileapp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB201C1521F5AA20BEF142D /* libPods-mobileapp-tvOSTests.a */; };
-		964BC060E7C855897E9BC4B1 /* libPods-mobileapp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EADCA748F2EDF950B3A25154 /* libPods-mobileapp-tvOS.a */; };
-		D5E9C592837DBD1A009CB3C5 /* libPods-mobileapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023866FD27C096A2D26C522 /* libPods-mobileapp.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* navappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* navappTests.m */; };
+		32C4C7BCAF004EBE8DC2771A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862A0D0D6B2C41F1BA7DC265 /* MaterialCommunityIcons.ttf */; };
+		45F2929C0D0F4C7B9719CEE1 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05777624D1014E789520D953 /* Ionicons.ttf */; };
+		49DF206BC16746A993C6C37E /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE66353902C4F47AB2085A6 /* SimpleLineIcons.ttf */; };
+		4C4B4A4A06F5479E95EF26E6 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A98FB4F9210445698D60B5E2 /* Zocial.ttf */; };
+		507A7FD8D43C411C90D83975 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6040D1AA5ACE48358CEDC74E /* FontAwesome5_Solid.ttf */; };
+		585C3FA24192412B8B726036 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD99E855545A4698A545AEA1 /* Fontisto.ttf */; };
+		77AC99BCF1868E94045C07DD /* libPods-navappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9168F5CC915AC5B0AB77E3D6 /* libPods-navappTests.a */; };
+		A6281B9A7C9A4A86A44A7C5F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBC0CD434E4F4274A96B2D88 /* FontAwesome5_Regular.ttf */; };
+		C41D6F3A7FEC4914A626E303 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1908E0E150C149049BEF494A /* EvilIcons.ttf */; };
+		E119977FA08744FDA325DB93 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53D204FB021C4B009F83BA4F /* FontAwesome5_Brands.ttf */; };
+		E43A68D92D1E4DA4B69C9FC2 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32D0DB6058541229EB79F5E /* AntDesign.ttf */; };
+		E91F7F1A837B78DD8C405E16 /* libPods-navapp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F07B5CC69244993B5A0DA /* libPods-navapp-tvOS.a */; };
+		ED6C53E4BD0F455F8716637F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7DDEDBCEA54F3594780DCA /* Entypo.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +44,61 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = mobileapp;
+			remoteInfo = navapp;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "mobileapp-tvOS";
+			remoteInfo = "navapp-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* mobileappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* navappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* mobileappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobileappTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* mobileapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mobileapp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mobileapp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* navappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navappTests.m; sourceTree = "<group>"; };
+		05777624D1014E789520D953 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		0D7DDEDBCEA54F3594780DCA /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* navapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = navapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = navapp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mobileapp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mobileapp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mobileapp/main.m; sourceTree = "<group>"; };
-		15BC15A4345A5800E457272F /* libPods-mobileappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A740E19C2F29C7C03697FD /* Pods-mobileappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileappTests.release.xcconfig"; path = "Target Support Files/Pods-mobileappTests/Pods-mobileappTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* mobileapp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobileapp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* mobileapp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobileapp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6225DCE58B781629FD9D5C3F /* Pods-mobileapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileapp.debug.xcconfig"; path = "Target Support Files/Pods-mobileapp/Pods-mobileapp.debug.xcconfig"; sourceTree = "<group>"; };
-		64BB6693346EFE280EAA0760 /* Pods-mobileapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-mobileapp-tvOS/Pods-mobileapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		6DB201C1521F5AA20BEF142D /* libPods-mobileapp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileapp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7023866FD27C096A2D26C522 /* libPods-mobileapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93246983F3AD158152C4A28D /* Pods-mobileapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-mobileapp-tvOSTests/Pods-mobileapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9C7E519FFA73B6760FBD3587 /* Pods-mobileappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileappTests.debug.xcconfig"; path = "Target Support Files/Pods-mobileappTests/Pods-mobileappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC90533F90D322953C049EDF /* Pods-mobileapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-mobileapp-tvOS/Pods-mobileapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E07A36099780019CE37A3186 /* Pods-mobileapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-mobileapp-tvOSTests/Pods-mobileapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EADCA748F2EDF950B3A25154 /* libPods-mobileapp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileapp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = navapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = navapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = navapp/main.m; sourceTree = "<group>"; };
+		16CB8ECBE1D137A4D6455996 /* Pods-navapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-navapp-tvOS/Pods-navapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1908E0E150C149049BEF494A /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		1994B8783FBF9075CBB1CB0B /* libPods-navapp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navapp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A26F2DB8DA7413C9A91F112 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		216528BCA19F43728DFDE844 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		2B0717B858144E249EDA5EAA /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		2CD629233200139683D380B5 /* Pods-navapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-navapp-tvOSTests/Pods-navapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE66353902C4F47AB2085A6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* navapp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "navapp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* navapp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "navapp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D204FB021C4B009F83BA4F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		6040D1AA5ACE48358CEDC74E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		862A0D0D6B2C41F1BA7DC265 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		89FA2E348C7D70452CD5AA74 /* Pods-navapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-navapp-tvOSTests/Pods-navapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9168F5CC915AC5B0AB77E3D6 /* libPods-navappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98FB4F9210445698D60B5E2 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		AE07DE949E307BB0EABE11A9 /* Pods-navappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navappTests.release.xcconfig"; path = "Target Support Files/Pods-navappTests/Pods-navappTests.release.xcconfig"; sourceTree = "<group>"; };
+		B64CE791310CF46B3AADFA5D /* Pods-navapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-navapp-tvOS/Pods-navapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B72C7D5B582B79EC208E8EAF /* Pods-navapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navapp.release.xcconfig"; path = "Target Support Files/Pods-navapp/Pods-navapp.release.xcconfig"; sourceTree = "<group>"; };
+		BA8B6C569BA75058DC6A2E8A /* libPods-navapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC0CD434E4F4274A96B2D88 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		CFF5D2E6F1072B7390C59C69 /* Pods-navapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navapp.debug.xcconfig"; path = "Target Support Files/Pods-navapp/Pods-navapp.debug.xcconfig"; sourceTree = "<group>"; };
+		D32D0DB6058541229EB79F5E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		DD99E855545A4698A545AEA1 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EEAAA09892A97643E42B3749 /* Pods-mobileapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileapp.release.xcconfig"; path = "Target Support Files/Pods-mobileapp/Pods-mobileapp.release.xcconfig"; sourceTree = "<group>"; };
+		F1ADC255BFBC44FFA8B918BE /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		F387C7BE335FDA310BA4EC50 /* Pods-navappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navappTests.debug.xcconfig"; path = "Target Support Files/Pods-navappTests/Pods-navappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0F07B5CC69244993B5A0DA /* libPods-navapp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navapp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF1952961834141BBE02858 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C489D47919D6B03EE294E97 /* libPods-mobileappTests.a in Frameworks */,
+				77AC99BCF1868E94045C07DD /* libPods-navappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E9C592837DBD1A009CB3C5 /* libPods-mobileapp.a in Frameworks */,
+				28CEF14864BEE6DF30B9E462 /* libPods-navapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964BC060E7C855897E9BC4B1 /* libPods-mobileapp-tvOS.a in Frameworks */,
+				E91F7F1A837B78DD8C405E16 /* libPods-navapp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D9A7E369C18274E75F600A /* libPods-mobileapp-tvOSTests.a in Frameworks */,
+				2B874D38CFA8CABFC75E508B /* libPods-navapp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* mobileappTests */ = {
+		00E356EF1AD99517003FC87E /* navappTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* mobileappTests.m */,
+				00E356F21AD99517003FC87E /* navappTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = mobileappTests;
+			path = navappTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* mobileapp */ = {
+		13B07FAE1A68108700A75B9A /* navapp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +165,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = mobileapp;
+			name = navapp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,25 +173,25 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7023866FD27C096A2D26C522 /* libPods-mobileapp.a */,
-				EADCA748F2EDF950B3A25154 /* libPods-mobileapp-tvOS.a */,
-				6DB201C1521F5AA20BEF142D /* libPods-mobileapp-tvOSTests.a */,
-				15BC15A4345A5800E457272F /* libPods-mobileappTests.a */,
+				BA8B6C569BA75058DC6A2E8A /* libPods-navapp.a */,
+				FA0F07B5CC69244993B5A0DA /* libPods-navapp-tvOS.a */,
+				1994B8783FBF9075CBB1CB0B /* libPods-navapp-tvOSTests.a */,
+				9168F5CC915AC5B0AB77E3D6 /* libPods-navappTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6254A75A4EDA24DCD6627C19 /* Pods */ = {
+		81F3EC757BDE7C3906641957 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6225DCE58B781629FD9D5C3F /* Pods-mobileapp.debug.xcconfig */,
-				EEAAA09892A97643E42B3749 /* Pods-mobileapp.release.xcconfig */,
-				DC90533F90D322953C049EDF /* Pods-mobileapp-tvOS.debug.xcconfig */,
-				64BB6693346EFE280EAA0760 /* Pods-mobileapp-tvOS.release.xcconfig */,
-				E07A36099780019CE37A3186 /* Pods-mobileapp-tvOSTests.debug.xcconfig */,
-				93246983F3AD158152C4A28D /* Pods-mobileapp-tvOSTests.release.xcconfig */,
-				9C7E519FFA73B6760FBD3587 /* Pods-mobileappTests.debug.xcconfig */,
-				26A740E19C2F29C7C03697FD /* Pods-mobileappTests.release.xcconfig */,
+				CFF5D2E6F1072B7390C59C69 /* Pods-navapp.debug.xcconfig */,
+				B72C7D5B582B79EC208E8EAF /* Pods-navapp.release.xcconfig */,
+				B64CE791310CF46B3AADFA5D /* Pods-navapp-tvOS.debug.xcconfig */,
+				16CB8ECBE1D137A4D6455996 /* Pods-navapp-tvOS.release.xcconfig */,
+				2CD629233200139683D380B5 /* Pods-navapp-tvOSTests.debug.xcconfig */,
+				89FA2E348C7D70452CD5AA74 /* Pods-navapp-tvOSTests.release.xcconfig */,
+				F387C7BE335FDA310BA4EC50 /* Pods-navappTests.debug.xcconfig */,
+				AE07DE949E307BB0EABE11A9 /* Pods-navappTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,12 +207,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* mobileapp */,
+				13B07FAE1A68108700A75B9A /* navapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* mobileappTests */,
+				00E356EF1AD99517003FC87E /* navappTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				6254A75A4EDA24DCD6627C19 /* Pods */,
+				81F3EC757BDE7C3906641957 /* Pods */,
+				C175AE45A3E14EBC988BD7B3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,22 +223,46 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* mobileapp.app */,
-				00E356EE1AD99517003FC87E /* mobileappTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* mobileapp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* mobileapp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* navapp.app */,
+				00E356EE1AD99517003FC87E /* navappTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* navapp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* navapp-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C175AE45A3E14EBC988BD7B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D32D0DB6058541229EB79F5E /* AntDesign.ttf */,
+				0D7DDEDBCEA54F3594780DCA /* Entypo.ttf */,
+				1908E0E150C149049BEF494A /* EvilIcons.ttf */,
+				F1ADC255BFBC44FFA8B918BE /* Feather.ttf */,
+				1A26F2DB8DA7413C9A91F112 /* FontAwesome.ttf */,
+				53D204FB021C4B009F83BA4F /* FontAwesome5_Brands.ttf */,
+				CBC0CD434E4F4274A96B2D88 /* FontAwesome5_Regular.ttf */,
+				6040D1AA5ACE48358CEDC74E /* FontAwesome5_Solid.ttf */,
+				DD99E855545A4698A545AEA1 /* Fontisto.ttf */,
+				FCF1952961834141BBE02858 /* Foundation.ttf */,
+				05777624D1014E789520D953 /* Ionicons.ttf */,
+				862A0D0D6B2C41F1BA7DC265 /* MaterialCommunityIcons.ttf */,
+				2B0717B858144E249EDA5EAA /* MaterialIcons.ttf */,
+				216528BCA19F43728DFDE844 /* Octicons.ttf */,
+				2CE66353902C4F47AB2085A6 /* SimpleLineIcons.ttf */,
+				A98FB4F9210445698D60B5E2 /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* mobileappTests */ = {
+		00E356ED1AD99517003FC87E /* navappTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mobileappTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "navappTests" */;
 			buildPhases = (
-				173A7D285DF63BB43FD89EA8 /* [CP] Check Pods Manifest.lock */,
+				AE4474A8B349DDE2913CA5D0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -215,36 +272,37 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = mobileappTests;
-			productName = mobileappTests;
-			productReference = 00E356EE1AD99517003FC87E /* mobileappTests.xctest */;
+			name = navappTests;
+			productName = navappTests;
+			productReference = 00E356EE1AD99517003FC87E /* navappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* mobileapp */ = {
+		13B07F861A680F5B00A75B9A /* navapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mobileapp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "navapp" */;
 			buildPhases = (
-				702FB78760BE0F73669102BE /* [CP] Check Pods Manifest.lock */,
+				0905D81CD6B8076315144205 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				58C668478CF4691F088F2734 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = mobileapp;
-			productName = mobileapp;
-			productReference = 13B07F961A680F5B00A75B9A /* mobileapp.app */;
+			name = navapp;
+			productName = navapp;
+			productReference = 13B07F961A680F5B00A75B9A /* navapp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* mobileapp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* navapp-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mobileapp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "navapp-tvOS" */;
 			buildPhases = (
-				B31DFAFFE5DCF3BBBC175844 /* [CP] Check Pods Manifest.lock */,
+				E67024769AD5BB4AAEAB7A23 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -255,16 +313,16 @@
 			);
 			dependencies = (
 			);
-			name = "mobileapp-tvOS";
-			productName = "mobileapp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* mobileapp-tvOS.app */;
+			name = "navapp-tvOS";
+			productName = "navapp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* navapp-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* mobileapp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* navapp-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mobileapp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "navapp-tvOSTests" */;
 			buildPhases = (
-				8D358C0432B512784F4CD49B /* [CP] Check Pods Manifest.lock */,
+				BD7B5A9D1F4E857A747C0582 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -274,9 +332,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "mobileapp-tvOSTests";
-			productName = "mobileapp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* mobileapp-tvOSTests.xctest */;
+			name = "navapp-tvOSTests";
+			productName = "navapp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* navapp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +343,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -303,7 +361,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mobileapp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "navapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +374,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* mobileapp */,
-				00E356ED1AD99517003FC87E /* mobileappTests */,
-				2D02E47A1E0B4A5D006451C7 /* mobileapp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* mobileapp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* navapp */,
+				00E356ED1AD99517003FC87E /* navappTests */,
+				2D02E47A1E0B4A5D006451C7 /* navapp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* navapp-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,6 +396,22 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				E43A68D92D1E4DA4B69C9FC2 /* AntDesign.ttf in Resources */,
+				ED6C53E4BD0F455F8716637F /* Entypo.ttf in Resources */,
+				C41D6F3A7FEC4914A626E303 /* EvilIcons.ttf in Resources */,
+				04554841E2B74BCF86AC5AB5 /* Feather.ttf in Resources */,
+				2A1EC4894B044216B14A28E9 /* FontAwesome.ttf in Resources */,
+				E119977FA08744FDA325DB93 /* FontAwesome5_Brands.ttf in Resources */,
+				A6281B9A7C9A4A86A44A7C5F /* FontAwesome5_Regular.ttf in Resources */,
+				507A7FD8D43C411C90D83975 /* FontAwesome5_Solid.ttf in Resources */,
+				585C3FA24192412B8B726036 /* Fontisto.ttf in Resources */,
+				0702F5056CD54261B2736CD2 /* Foundation.ttf in Resources */,
+				45F2929C0D0F4C7B9719CEE1 /* Ionicons.ttf in Resources */,
+				32C4C7BCAF004EBE8DC2771A /* MaterialCommunityIcons.ttf in Resources */,
+				1EBD505CF0F840F2B9304B41 /* MaterialIcons.ttf in Resources */,
+				0EFD985A26C040CF95C87215 /* Octicons.ttf in Resources */,
+				49DF206BC16746A993C6C37E /* SimpleLineIcons.ttf in Resources */,
+				4C4B4A4A06F5479E95EF26E6 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +447,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		173A7D285DF63BB43FD89EA8 /* [CP] Check Pods Manifest.lock */ = {
+		0905D81CD6B8076315144205 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,7 +462,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mobileappTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-navapp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -409,7 +483,59 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		702FB78760BE0F73669102BE /* [CP] Check Pods Manifest.lock */ = {
+		58C668478CF4691F088F2734 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-navapp/Pods-navapp-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-navapp/Pods-navapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4474A8B349DDE2913CA5D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,14 +550,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mobileapp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-navappTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D358C0432B512784F4CD49B /* [CP] Check Pods Manifest.lock */ = {
+		BD7B5A9D1F4E857A747C0582 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,14 +572,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mobileapp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-navapp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B31DFAFFE5DCF3BBBC175844 /* [CP] Check Pods Manifest.lock */ = {
+		E67024769AD5BB4AAEAB7A23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,7 +594,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mobileapp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-navapp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +646,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* mobileappTests.m in Sources */,
+				00E356F31AD99517003FC87E /* navappTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* mobileappTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* navappTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +681,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* mobileapp */;
+			target = 13B07F861A680F5B00A75B9A /* navapp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* mobileapp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* navapp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +698,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = mobileapp;
+			path = navapp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +706,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C7E519FFA73B6760FBD3587 /* Pods-mobileappTests.debug.xcconfig */;
+			baseConfigurationReference = F387C7BE335FDA310BA4EC50 /* Pods-navappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = mobileappTests/Info.plist;
+				INFOPLIST_FILE = navappTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +723,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileapp.app/mobileapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navapp.app/navapp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26A740E19C2F29C7C03697FD /* Pods-mobileappTests.release.xcconfig */;
+			baseConfigurationReference = AE07DE949E307BB0EABE11A9 /* Pods-navappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = mobileappTests/Info.plist;
+				INFOPLIST_FILE = navappTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +743,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileapp.app/mobileapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navapp.app/navapp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6225DCE58B781629FD9D5C3F /* Pods-mobileapp.debug.xcconfig */;
+			baseConfigurationReference = CFF5D2E6F1072B7390C59C69 /* Pods-navapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = mobileapp/Info.plist;
+				INFOPLIST_FILE = navapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +762,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mobileapp;
+				PRODUCT_NAME = navapp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEAAA09892A97643E42B3749 /* Pods-mobileapp.release.xcconfig */;
+			baseConfigurationReference = B72C7D5B582B79EC208E8EAF /* Pods-navapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = mobileapp/Info.plist;
+				INFOPLIST_FILE = navapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +781,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mobileapp;
+				PRODUCT_NAME = navapp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC90533F90D322953C049EDF /* Pods-mobileapp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = B64CE791310CF46B3AADFA5D /* Pods-navapp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +799,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mobileapp-tvOS/Info.plist";
+				INFOPLIST_FILE = "navapp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mobileapp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.navapp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +816,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64BB6693346EFE280EAA0760 /* Pods-mobileapp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 16CB8ECBE1D137A4D6455996 /* Pods-navapp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +827,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mobileapp-tvOS/Info.plist";
+				INFOPLIST_FILE = "navapp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mobileapp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.navapp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +844,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07A36099780019CE37A3186 /* Pods-mobileapp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 2CD629233200139683D380B5 /* Pods-navapp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +854,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mobileapp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "navapp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mobileapp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.navapp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileapp-tvOS.app/mobileapp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navapp-tvOS.app/navapp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93246983F3AD158152C4A28D /* Pods-mobileapp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 89FA2E348C7D70452CD5AA74 /* Pods-navapp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +881,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mobileapp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "navapp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mobileapp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.navapp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobileapp-tvOS.app/mobileapp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navapp-tvOS.app/navapp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +998,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mobileappTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "navappTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +1007,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mobileapp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "navapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +1016,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mobileapp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "navapp-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +1025,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mobileapp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "navapp-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +1034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mobileapp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "navapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

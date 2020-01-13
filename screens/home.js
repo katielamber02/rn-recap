@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, FlatList, Modal, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, FlatList, Modal, StyleSheet, TextInput, Button } from 'react-native';
 
 import { globalStyles } from '../styles/global';
 import Card from '../shared/card'
 import Ionicons from 'react-native-vector-icons/Ionicons';
+
+import { ReviewForm } from './reviewFrom'
 
 
 export default function Home({ navigation }) {
@@ -26,6 +28,9 @@ export default function Home({ navigation }) {
                         onPress={() => setModalOpen(false)}
                     />
                     <Text>Hello from Modal</Text>
+
+                    <ReviewForm />
+
                 </View>
             </Modal>
 
